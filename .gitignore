@@ -1,0 +1,48 @@
+# KiCad machine-local settings
+*.kicad_prl
+fp-info-cache
+**/fp-info-cache
+
+# KiCad backups/autosaves
+*.bak
+*.bck
+*.tmp
+_autosave-*
+*-save.kicad_sch
+*-save.kicad_pcb
+
+# Generated manufacturing outputs (commit only when releasing)
+hardware/**/gerbers/
+hardware/**/plots/
+hardware/**/fab/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Common build outputs
+build/
+dist/
+out/
+*.o
+*.obj
+*.elf
+*.map
+*.exe
+
+# PlatformIO
+.pio/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# IDEs
+.vscode/
+.idea/
+
