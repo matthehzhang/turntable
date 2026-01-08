@@ -1299,6 +1299,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -5084,7 +5191,7 @@
 		)
 		(uuid "19aebcc3-e02b-4182-8d48-b1164f30471e")
 	)
-	(text "12v dc backup\n"
+	(text "12v entry"
 		(exclude_from_sim no)
 		(at 76.2 186.69 0)
 		(effects
@@ -5245,6 +5352,12 @@
 		(uuid "5dd0d7c7-6fc2-4cfe-b37b-47ec01627f1e")
 	)
 	(junction
+		(at 152.4 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62adf42f-42c4-427c-b7ae-8b6f8b336975")
+	)
+	(junction
 		(at 144.78 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5285,6 +5398,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76850c45-fa15-4a9d-953a-7a672d31f841")
+	)
+	(junction
+		(at 52.07 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7723a4d8-db34-4f16-b5f9-3b9bd5e7d078")
 	)
 	(junction
 		(at 71.12 29.21)
@@ -5420,6 +5539,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 52.07) (xy 166.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8f0166-98fb-45dc-87a6-1ba104983027")
+	)
+	(wire
+		(pts
 			(xy 40.64 180.34) (xy 40.64 182.88)
 		)
 		(stroke
@@ -5510,6 +5639,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 156.21) (xy 91.44 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4001f9b8-284b-4aef-9038-8e32a805d517")
+	)
+	(wire
+		(pts
 			(xy 166.37 52.07) (xy 166.37 49.53)
 		)
 		(stroke
@@ -5517,6 +5656,16 @@
 			(type default)
 		)
 		(uuid "41892e28-6d2e-4a76-859c-f57d9cf55207")
+	)
+	(wire
+		(pts
+			(xy 91.44 156.21) (xy 91.44 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418c7a24-4e74-4e2f-bbce-47346a833d13")
 	)
 	(wire
 		(pts
@@ -5880,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 52.07) (xy 166.37 52.07)
+			(xy 140.97 52.07) (xy 152.4 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7916,72 +8065,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 91.44 151.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0791d855-414b-4356-b320-0d11b66bee12")
-		(property "Reference" "#PWR031"
-			(at 91.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 91.44 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 91.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c17c5231-a320-4c37-94a0-99d968148cbb")
-		)
-		(instances
-			(project "motorpcb i think"
-				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 29.21 35.56 0)
 		(unit 1)
@@ -8549,6 +8632,73 @@
 			(project "motorpcb i think"
 				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cda8936-09a1-4841-9c3d-721aee3b0152")
+		(property "Reference" "+3V3"
+			(at 73.66 24.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 73.66 27.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 76.2 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd880b48-92b2-450f-b91e-d812a8ede3ca")
+		)
+		(instances
+			(project "motorpcb i think"
+				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
+					(reference "+3V3")
 					(unit 1)
 				)
 			)
@@ -9994,6 +10144,72 @@
 			(project "motorpcb i think"
 				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "590f8342-8621-4cbc-a027-233cd67fbba1")
+		(property "Reference" "#PWR026"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.218 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1da1355d-f34c-416d-b0ca-5a659ad1df2e")
+		)
+		(instances
+			(project "motorpcb i think"
+				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11968,6 +12184,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 83.82 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae26ee52-1433-4524-b251-999f616b075b")
+		(property "Reference" "J12"
+			(at 76.454 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 68.834 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 83.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 83.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "002ac7fa-0653-465c-be86-5366a30ef86e")
+		)
+		(pin "2"
+			(uuid "30f48f11-13e2-4836-9e7a-bc0bc88b3b8b")
+		)
+		(instances
+			(project "motorpcb i think"
+				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 29.21 31.75 90)
 		(unit 1)
@@ -12102,35 +12385,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 91.44 147.32 90)
+		(lib_id "Connector:TestPoint")
+		(at 52.07 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9737e88-8ad9-4431-a8c7-2244b762e29d")
-		(property "Reference" "D4"
-			(at 93.98 146.0499 90)
+		(uuid "b5a99337-98c5-4876-8aef-7c8df5c65f7c")
+		(property "Reference" "T2"
+			(at 57.15 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 93.98 148.5899 90)
+		(property "Value" "VHV"
+			(at 57.15 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 91.44 147.32 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 52.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +12422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 147.32 0)
+			(at 52.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12147,26 +12430,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 91.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 91.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 147.32 0)
+		(property "Description" "test point"
+			(at 52.07 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12175,15 +12440,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eba1fcff-5865-40d5-8845-61fffcf469cb")
-		)
-		(pin "2"
-			(uuid "72395e69-16ca-4938-a109-0ada2a9f6310")
+			(uuid "588e0be9-9069-4adc-8b07-dfe27a5d5662")
 		)
 		(instances
 			(project ""
 				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
-					(reference "D4")
+					(reference "T2")
 					(unit 1)
 				)
 			)
@@ -12253,6 +12515,72 @@
 			(project ""
 				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9a4081a-43ae-4025-b401-c447a20d5c0b")
+		(property "Reference" "#PWR031"
+			(at 33.02 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.988 188.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82974658-48c8-43ab-857a-b365788866a1")
+		)
+		(instances
+			(project "motorpcb i think"
+				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12406,6 +12734,138 @@
 			(project ""
 				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 26.67 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da69b451-7dec-4a68-9b93-3971450b4e36")
+		(property "Reference" "T1"
+			(at 23.368 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 23.368 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 26.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 26.67 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "509b45ac-e829-40b8-b563-09816c6cf78b")
+		)
+		(instances
+			(project "motorpcb i think"
+				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5eb560f-bed1-46aa-b287-f56234edeee2")
+		(property "Reference" "T3"
+			(at 154.94 47.4979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M+"
+			(at 154.94 50.0379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01fd84db-56f3-4a91-85a2-2cd6a895b6b2")
+		)
+		(instances
+			(project "motorpcb i think"
+				(path "/8b44f71f-a5cb-444d-b651-a37e192dd55f"
+					(reference "T3")
 					(unit 1)
 				)
 			)
