@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "motorpcb i think")(type "KiCad")(uri "${KIPRJMOD}/motorpcb i think.kicad_sym")(options "")(descr ""))
+)
