@@ -1,0 +1,3477 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "CH224A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProLib_pcs_2025-12-27:ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CH224A/44538670.html"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Power Receiver Controller Output Power:140W Output Voltage:5V；20V；15V；12V；28V；9V Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CH224A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WCH(南京沁恒)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C42459160"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "CH224A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CH224A_1_0"
+			(rectangle
+				(start -12.7 6.35)
+				(end 12.7 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 3.81 0)
+				(length 2.54)
+				(name "VHV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 1.27 0)
+				(length 2.54)
+				(name "CFG2/SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -1.27 0)
+				(length 2.54)
+				(name "CFG3/SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -3.81 0)
+				(length 2.54)
+				(name "DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -6.35 0)
+				(length 2.54)
+				(name "DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 2.54 8.89 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 3.81 180)
+				(length 2.54)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 1.27 180)
+				(length 2.54)
+				(name "CFG1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -1.27 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -3.81 180)
+				(length 2.54)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -6.35 180)
+				(length 2.54)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ESP32-S3-WROOM-1-N8"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -10.16 31.5722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ESP32-S3-WROOM-1-N8"
+			(at -10.16 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ESP32-S3-WROOM-1-N8:XCVR_ESP32-S3-WROOM-1-N8"
+			(at 38.862 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount"
+			(at 38.608 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Espressif Systems"
+			(at 37.592 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 36.322 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 2.54 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON STANDARD Espressif Systems"
+			(at 39.624 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-S3-WROOM-1-N8/Espressif+Systems/view-part/?ref=eda"
+			(at 52.324 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-S3-WROOM-1-N8/Espressif+Systems/view-part/?ref=snap"
+			(at 37.846 -4.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ESP32-S3-WROOM-1-N8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "WiFi 802.11a/b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz Antenna Not Included -"
+			(at 38.354 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/ESP32-S3-WROOM-1-N8R8/?ref=eda"
+			(at 38.1 -11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "ESP32-S3-WROOM-1-N8_0_0"
+			(rectangle
+				(start -10.16 -35.56)
+				(end 10.16 30.48)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -15.24 25.4 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 20.32 0)
+				(length 5.08)
+				(name "RXD0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 17.78 0)
+				(length 5.08)
+				(name "TXD0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 12.7 0)
+				(length 5.08)
+				(name "IO0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 10.16 0)
+				(length 5.08)
+				(name "IO1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 7.62 0)
+				(length 5.08)
+				(name "IO2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 5.08 0)
+				(length 5.08)
+				(name "IO3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 2.54 0)
+				(length 5.08)
+				(name "IO4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 0 0)
+				(length 5.08)
+				(name "IO5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -2.54 0)
+				(length 5.08)
+				(name "IO6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -5.08 0)
+				(length 5.08)
+				(name "IO7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -7.62 0)
+				(length 5.08)
+				(name "IO8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -10.16 0)
+				(length 5.08)
+				(name "IO9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -12.7 0)
+				(length 5.08)
+				(name "IO10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -15.24 0)
+				(length 5.08)
+				(name "IO11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -17.78 0)
+				(length 5.08)
+				(name "IO12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -20.32 0)
+				(length 5.08)
+				(name "IO13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -22.86 0)
+				(length 5.08)
+				(name "IO14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -25.4 0)
+				(length 5.08)
+				(name "IO15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -27.94 0)
+				(length 5.08)
+				(name "IO16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 27.94 180)
+				(length 5.08)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 12.7 180)
+				(length 5.08)
+				(name "IO17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 10.16 180)
+				(length 5.08)
+				(name "IO18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 7.62 180)
+				(length 5.08)
+				(name "IO19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 5.08 180)
+				(length 5.08)
+				(name "IO20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "IO21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 0 180)
+				(length 5.08)
+				(name "IO35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -2.54 180)
+				(length 5.08)
+				(name "IO36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "IO37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -7.62 180)
+				(length 5.08)
+				(name "IO38"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(name "IO39"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -12.7 180)
+				(length 5.08)
+				(name "IO40"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -15.24 180)
+				(length 5.08)
+				(name "IO41"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -17.78 180)
+				(length 5.08)
+				(name "IO42"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -20.32 180)
+				(length 5.08)
+				(name "IO45"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -22.86 180)
+				(length 5.08)
+				(name "IO46"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -25.4 180)
+				(length 5.08)
+				(name "IO47"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -27.94 180)
+				(length 5.08)
+				(name "IO48"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -33.02 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41_4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41_5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41_6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41_7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41_8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "41_9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LD1117S33TR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -10.1695 7.6271 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LD1117S33TR"
+			(at -12.7227 -7.6336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LD1117S33TR:SOT230P700X180-4N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Linear Voltage Regulator IC Positive Fixed 1 Output  800mA SOT-223"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TO-261-4 STMicroelectronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LD1117S33TR/STMicroelectronics/view-part/?ref=eda"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LD1117S33TR/STMicroelectronics/view-part/?ref=snap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LD1117S33TR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ST Microelectronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "LD1117S33TR_0_0"
+			(rectangle
+				(start -12.7 -5.08)
+				(end 12.7 5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -17.78 0 0)
+				(length 5.08)
+				(name "IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(hide yes)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LOGO"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#G"
+			(at 0 125.307 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LOGO"
+			(at 0 -125.307 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LOGO_0_0"
+			(polyline
+				(pts
+					(xy -111.1777 -125.9398) (xy -109.762 -125.9195) (xy -108.8681 -125.8594) (xy -108.3767 -125.7392)
+					(xy -108.1692 -125.5382) (xy -108.1264 -125.236) (xy -108.0356 -124.8246) (xy -107.6459 -124.5305)
+					(xy -107.3951 -124.4067) (xy -107.0319 -123.6536) (xy -106.7438 -122.2392) (xy -106.5341 -120.1892)
+					(xy -106.406 -117.529) (xy -106.3625 -114.2843) (xy -106.3625 -114.1806) (xy -106.3533 -111.908)
+					(xy -106.3213 -110.2369) (xy -106.2581 -109.0672) (xy -106.1552 -108.2989) (xy -106.0041 -107.8321)
+					(xy -105.7966 -107.5666) (xy -105.621 -107.408) (xy -105.1923 -106.8307) (xy -104.8924 -106.0102)
+					(xy -104.6995 -104.8313) (xy -104.592 -103.1786) (xy -104.5482 -100.937) (xy -104.5286 -99.2771)
+					(xy -104.4702 -97.2466) (xy -104.3694 -95.7976) (xy -104.2172 -94.8554) (xy -104.0044 -94.3451)
+					(xy -103.7217 -94.1916) (xy -103.6341 -94.1676) (xy -103.3042 -93.7102) (xy -103.064 -92.8554)
+					(xy -103.0413 -92.7286) (xy -102.6842 -91.6326) (xy -102.1663 -90.785) (xy -102.0791 -90.6867)
+					(xy -101.3484 -89.3743) (xy -100.884 -87.5369) (xy -100.72 -85.3039) (xy -100.6764 -84.1998) (xy -100.4815 -83.3318)
+					(xy -100.0879 -82.8345) (xy -99.9323 -82.6911) (xy -99.4175 -81.9201) (xy -98.9792 -80.8926) (xy -98.8397 -80.5019)
+					(xy -98.4319 -79.6586) (xy -98.0635 -79.244) (xy -97.8763 -79.0622) (xy -97.5214 -78.3416) (xy -97.2001 -77.299)
+					(xy -97.1235 -77.0004) (xy -96.6713 -75.8398) (xy -96.1384 -75.32) (xy -96.0811 -75.2989) (xy -95.5817 -74.7416)
+					(xy -95.2669 -73.5434) (xy -94.9266 -72.2977) (xy -94.3466 -71.6023) (xy -93.9425 -71.2839) (xy -93.6625 -70.7107)
+					(xy -93.4187 -70.262) (xy -92.7464 -69.8369) (xy -92.0951 -69.4363) (xy -91.6544 -68.8158) (xy -91.4992 -68.5072)
+					(xy -90.9006 -68.1454) (xy -89.7466 -67.9048) (xy -89.7386 -67.9037) (xy -88.6495 -67.6923) (xy -88.0712 -67.3766)
+					(xy -87.8102 -66.8513) (xy -87.5358 -66.312) (xy -86.9037 -65.8525) (xy -86.4543 -65.5999) (xy -86.0034 -64.9101)
+					(xy -85.6736 -64.347) (xy -84.9371 -63.8214) (xy -84.3361 -63.4441) (xy -83.8858 -62.7901) (xy -83.6877 -62.3843)
+					(xy -83.2069 -62.0888) (xy -82.7685 -61.8582) (xy -82.3094 -61.2069) (xy -81.8708 -60.6169) (xy -81.2499 -60.3249)
+					(xy -80.7551 -60.1335) (xy -80.2736 -59.4868) (xy -80.0494 -59.0767) (xy -79.4449 -58.6616) (xy -78.3434 -58.4071)
+					(xy -77.3781 -58.2078) (xy -76.7885 -57.8736) (xy -76.5151 -57.3018) (xy -76.2379 -56.7459) (xy -75.4681 -56.2298)
+					(xy -74.9093 -55.9569) (xy -74.4253 -55.3518) (xy -74.1184 -54.8953) (xy -73.3876 -54.475) (xy -72.839 -54.2039)
+					(xy -72.39 -53.6083) (xy -72.0126 -53.1047) (xy -71.2102 -52.7318) (xy -70.4082 -52.5228) (xy -69.1759 -52.016)
+					(xy -67.7333 -51.1747) (xy -67.6536 -51.1247) (xy -66.7765 -50.6728) (xy -66.0982 -50.4729) (xy -65.5401 -50.2104)
+					(xy -64.9436 -49.5652) (xy -64.4067 -48.9532) (xy -63.8829 -48.6833) (xy -63.5227 -48.4853) (xy -63.1893 -47.8435)
+					(xy -62.9089 -47.2791) (xy -62.3074 -46.8282) (xy -62.1801 -46.7832) (xy -61.8127 -46.4472) (xy -61.5405 -45.7616)
+					(xy -61.3462 -44.6377) (xy -61.2124 -42.9864) (xy -61.1221 -40.7189) (xy -61.0932 -39.3674) (xy -61.1233 -38.2654)
+					(xy -61.2591 -37.5075) (xy -61.5388 -36.8989) (xy -62.0007 -36.2445) (xy -62.2702 -35.8766) (xy -62.7719 -35.0876)
+					(xy -62.9708 -34.6038) (xy -63.2221 -34.1824) (xy -63.8528 -33.6578) (xy -64.1706 -33.4199) (xy -64.6157 -32.7513)
+					(xy -64.7347 -31.698) (xy -64.7539 -31.2616) (xy -64.9508 -30.0893) (xy -65.2993 -28.9946) (xy -65.7228 -28.1853)
+					(xy -66.1449 -27.8694) (xy -66.1739 -27.8666) (xy -66.5726 -27.5252) (xy -66.9878 -26.787) (xy -67.0263 -26.6974)
+					(xy -67.3966 -26.0011) (xy -67.6763 -25.7287) (xy -67.7044 -25.7314) (xy -68.2625 -25.7527) (xy -68.2874 -25.7469)
+					(xy -68.4583 -25.3374) (xy -68.5753 -24.3813) (xy -68.6201 -23.0187) (xy -68.6432 -21.5184) (xy -68.7487 -20.1352)
+					(xy -68.9701 -19.2459) (xy -69.3403 -18.7329) (xy -69.8922 -18.4786) (xy -70.4322 -18.2266) (xy -70.732 -17.7735)
+					(xy -70.9018 -17.3073) (xy -71.4375 -16.675) (xy -71.5399 -16.5818) (xy -71.9096 -16.0393) (xy -72.0933 -15.2069)
+					(xy -72.1431 -13.8792) (xy -72.1441 -13.669) (xy -72.3076 -11.65) (xy -72.7736 -10.1576) (xy -73.5771 -9.075)
+					(xy -73.7747 -8.8599) (xy -74.1482 -8.0172) (xy -74.2597 -6.7012) (xy -74.3081 -5.7422) (xy -74.5989 -4.7444)
+					(xy -75.2648 -3.8046) (xy -75.4235 -3.608) (xy -76.0999 -2.4525) (xy -76.4846 -1.2783) (xy -76.5202 -1.0866)
+					(xy -76.8759 -0.0895) (xy -77.3766 0.5635) (xy -77.7601 0.9886) (xy -78.0457 1.8343) (xy -78.2117 3.2173)
+					(xy -78.2139 3.2478) (xy -78.376 4.6016) (xy -78.6614 5.4577) (xy -79.1367 6.0181) (xy -79.4047 6.2647)
+					(xy -79.6697 6.6903) (xy -79.8206 7.3427) (xy -79.8885 8.3814) (xy -79.9042 9.966) (xy -79.9041 10.1691)
+					(xy -79.8916 11.6547) (xy -79.8325 12.6006) (xy -79.6914 13.1562) (xy -79.4331 13.4709) (xy -79.0222 13.6942)
+					(xy -78.4632 14.091) (xy -78.1403 14.8465) (xy -78.1365 14.9225) (xy -77.8669 15.7247) (xy -77.3022 16.5929)
+					(xy -77.1246 16.8321) (xy -76.5659 17.9523) (xy -76.2222 19.2015) (xy -76.1265 19.7013) (xy -75.8564 20.5)
+					(xy -75.561 20.8159) (xy -75.493 20.8194) (xy -74.8099 20.9387) (xy -73.858 21.1745) (xy -73.5985 21.2496)
+					(xy -72.9016 21.562) (xy -72.547 22.0922) (xy -72.3414 23.0835) (xy -72.323 23.2007) (xy -71.9411 24.4416)
+					(xy -71.2439 25.2025) (xy -70.65 25.7349) (xy -70.3792 26.2902) (xy -70.3249 26.5285) (xy -69.8926 26.8112)
+					(xy -69.6888 26.8743) (xy -69.0353 27.3057) (xy -68.2039 28.0008) (xy -67.3803 28.7879) (xy -66.75 29.4953)
+					(xy -66.4986 29.9512) (xy -66.196 30.3234) (xy -65.3569 30.8991) (xy -64.0965 31.6063) (xy -62.5302 32.3747)
+					(xy -62.2621 32.5089) (xy -61.438 33.0697) (xy -61.0071 33.6022) (xy -60.8251 33.929) (xy -60.3094 34.2195)
+					(xy -59.7911 34.4791) (xy -59.2209 35.1218) (xy -59.0671 35.3269) (xy -58.2535 36.104) (xy -57.2422 36.7975)
+					(xy -56.9805 36.9433) (xy -55.8047 37.5979) (xy -54.7905 38.1615) (xy -54.7805 38.167) (xy -53.8968 38.7785)
+					(xy -53.2587 39.4195) (xy -53.1406 39.5583) (xy -52.3852 40.1024) (xy -51.373 40.5551) (xy -51.0431 40.6751)
+					(xy -50.1982 41.0999) (xy -49.7712 41.5019) (xy -49.5444 41.7711) (xy -48.8789 41.9806) (xy -48.2672 42.193)
+					(xy -47.6282 42.8082) (xy -47.5973 42.8551) (xy -47.2688 43.3061) (xy -46.892 43.6721) (xy -46.3938 43.9626)
+					(xy -45.7012 44.1875) (xy -44.7412 44.3564) (xy -43.4409 44.4791) (xy -41.727 44.5651) (xy -39.5267 44.6243)
+					(xy -36.7669 44.6663) (xy -33.3746 44.7007) (xy -30.0904 44.7352) (xy -27.4362 44.775) (xy -25.3546 44.8234)
+					(xy -23.7789 44.8836) (xy -22.6425 44.9591) (xy -21.879 45.0533) (xy -21.4216 45.1693) (xy -21.2037 45.3106)
+					(xy -20.4909 45.8217) (xy -19.2466 46.2795) (xy -17.678 46.6239) (xy -15.9786 46.8126) (xy -14.3419 46.8037)
+					(xy -12.2585 46.56) (xy -10.4714 46.1925) (xy -9.1382 45.737) (xy -8.3844 45.2268) (xy -8.3763 45.2171)
+					(xy -8.2133 45.1081) (xy -7.8975 45.0143) (xy -7.3785 44.9347) (xy -6.6062 44.8678) (xy -5.5303 44.8125)
+					(xy -4.1005 44.7674) (xy -2.2666 44.7313) (xy 0.0216 44.7028) (xy 2.8143 44.6808) (xy 6.1619 44.664)
+					(xy 10.1146 44.651) (xy 14.7226 44.6406) (xy 15.8544 44.6382) (xy 19.757 44.6261) (xy 23.4451 44.609)
+					(xy 26.8573 44.5876) (xy 29.9323 44.5623) (xy 32.6086 44.534) (xy 34.825 44.5031) (xy 36.5199 44.4704)
+					(xy 37.632 44.4364) (xy 38.1 44.4017) (xy 38.9309 44.1842) (xy 39.9646 43.9289) (xy 40.0031 43.9193)
+					(xy 40.9032 43.529) (xy 41.4763 42.9924) (xy 41.7706 42.612) (xy 42.3205 42.3334) (xy 42.6268 42.2753)
+					(xy 43.2919 41.8924) (xy 44.0177 41.3343) (xy 45.0254 40.788) (xy 45.8426 40.5695) (xy 46.3765 40.3736)
+					(xy 47.0535 39.8281) (xy 47.0648 39.816) (xy 48.6347 38.6419) (xy 50.688 37.9162) (xy 50.744 37.904)
+					(xy 51.642 37.6531) (xy 52.2111 37.3998) (xy 52.3176 37.3335) (xy 53.0048 37.0306) (xy 53.975 36.6915)
+					(xy 54.2123 36.6118) (xy 55.2924 36.1366) (xy 56.0917 35.6224) (xy 56.6937 35.199) (xy 57.5001 34.8678)
+					(xy 58.1138 34.5112) (xy 58.6659 33.7742) (xy 59.1403 33.0969) (xy 59.6474 32.8084) (xy 60.0784 32.5831)
+					(xy 60.5014 31.9265) (xy 60.8211 31.3367) (xy 61.2065 31.0445) (xy 61.5951 30.8296) (xy 62.3329 30.2176)
+					(xy 63.27 29.3454) (xy 64.2681 28.3513) (xy 65.1887 27.3732) (xy 65.8936 26.5493) (xy 66.2445 26.0174)
+					(xy 66.5062 25.6662) (xy 67.2018 25.4001) (xy 67.7221 25.2386) (xy 68.2625 24.5181) (xy 68.6273 23.9315)
+					(xy 69.154 23.6362) (xy 69.1717 23.6357) (xy 69.6649 23.3142) (xy 70.0792 22.5779) (xy 70.4727 21.854)
+					(xy 71.1192 21.5195) (xy 71.4965 21.4557) (xy 71.7903 21.1529) (xy 72.0108 20.753) (xy 72.6141 20.0205)
+					(xy 73.466 19.1245) (xy 74.2926 18.2542) (xy 75.1037 17.2902) (xy 75.5864 16.5806) (xy 75.5878 16.5779)
+					(xy 76.1063 15.6449) (xy 76.7277 14.6404) (xy 76.7508 14.605) (xy 77.328 13.6542) (xy 77.7552 12.8365)
+					(xy 78.0908 12.3613) (xy 78.8188 11.8994) (xy 79.2444 11.6718) (xy 79.5514 11.0168) (xy 79.5521 10.9864)
+					(xy 79.7834 10.2241) (xy 80.3046 9.3682) (xy 80.7716 8.5482) (xy 81.2795 7.3035) (xy 81.7147 5.9089)
+					(xy 81.7189 5.8928) (xy 82.1264 4.5202) (xy 82.5635 3.3181) (xy 82.9365 2.545) (xy 83.0998 2.2412)
+					(xy 83.2629 1.6931) (xy 83.365 0.8871) (xy 83.4134 -0.2886) (xy 83.4155 -1.9457) (xy 83.3785 -4.1959)
+					(xy 83.2555 -10.0745) (xy 82.109 -11.6331) (xy 81.6747 -12.2698) (xy 81.1623 -13.1908) (xy 80.9625 -13.8102)
+					(xy 80.9044 -14.1464) (xy 80.5042 -14.7109) (xy 80.4909 -14.7199) (xy 80.1965 -15.2185) (xy 79.8661 -16.2003)
+					(xy 79.5686 -17.4624) (xy 79.3567 -18.414) (xy 78.9225 -19.7078) (xy 78.4497 -20.3856) (xy 78.2939 -20.5262)
+					(xy 77.7877 -21.2953) (xy 77.374 -22.3259) (xy 77.2523 -22.7156) (xy 76.9178 -23.5774) (xy 76.6457 -24.0173)
+					(xy 76.6144 -24.0494) (xy 76.3757 -24.5788) (xy 76.0583 -25.5785) (xy 75.722 -26.8641) (xy 75.3737 -28.1133)
+					(xy 74.8505 -29.4517) (xy 74.3234 -30.2751) (xy 73.794 -31.0058) (xy 73.5541 -31.7731) (xy 73.3661 -32.7423)
+					(xy 72.7548 -33.902) (xy 71.8894 -34.844) (xy 70.9461 -35.3278) (xy 70.5611 -35.472) (xy 70.0308 -35.9833)
+					(xy 69.7971 -36.4659) (xy 69.3756 -37.3014) (xy 69.1302 -37.9207) (xy 68.968 -38.8007) (xy 68.9012 -39.2154)
+					(xy 68.6153 -39.511) (xy 68.57 -39.5212) (xy 68.3514 -39.9266) (xy 68.2625 -40.7407) (xy 68.254 -41.0178)
+					(xy 68.1095 -42.2601) (xy 67.8427 -43.54) (xy 67.7014 -44.1272) (xy 67.6071 -45.1667) (xy 67.8351 -46.0145)
+					(xy 67.8519 -46.0514) (xy 68.0443 -46.4157) (xy 68.3106 -46.6604) (xy 68.7772 -46.8094) (xy 69.5703 -46.8863)
+					(xy 70.8164 -46.9151) (xy 72.6417 -46.9194) (xy 72.6696 -46.9194) (xy 74.432 -46.9449) (xy 75.996 -47.0129)
+					(xy 77.1926 -47.1132) (xy 77.8527 -47.2355) (xy 77.9445 -47.2765) (xy 78.6656 -47.8611) (xy 79.2967 -48.7348)
+					(xy 79.9466 -49.6166) (xy 81.1006 -50.469) (xy 82.3557 -50.8143) (xy 82.5479 -50.8567) (xy 83.2671 -51.2343)
+					(xy 84.1242 -51.8726) (xy 84.4801 -52.1623) (xy 85.2649 -52.7024) (xy 85.7761 -52.9166) (xy 86.0787 -53.061)
+					(xy 86.4374 -53.6436) (xy 86.762 -54.1796) (xy 87.4896 -54.745) (xy 88.0558 -55.109) (xy 88.5327 -55.6936)
+					(xy 88.9803 -56.6968) (xy 89.5143 -57.5412) (xy 89.9538 -57.8572) (xy 90.1729 -57.9409) (xy 90.8234 -58.3881)
+					(xy 91.6536 -59.0919) (xy 92.0067 -59.3952) (xy 93.0387 -60.0698) (xy 93.8817 -60.3249) (xy 93.962 -60.3259)
+					(xy 95.0187 -60.5184) (xy 95.8164 -60.9616) (xy 96.1319 -61.5355) (xy 96.3166 -61.9587) (xy 96.9158 -62.6606)
+					(xy 97.7274 -63.394) (xy 98.5402 -63.9714) (xy 99.1428 -64.2055) (xy 99.3739 -64.2362) (xy 99.6597 -64.4945)
+					(xy 99.8463 -64.8878) (xy 100.3542 -65.6741) (xy 101.0708 -66.6749) (xy 101.7525 -67.6689) (xy 102.28 -68.6075)
+					(xy 102.4819 -69.2081) (xy 102.5394 -69.5575) (xy 102.8362 -69.8499) (xy 103.0416 -69.997) (xy 103.4747 -70.6375)
+					(xy 103.9606 -71.6138) (xy 104.29 -72.3215) (xy 104.7096 -73.0823) (xy 104.9716 -73.3777) (xy 105.083 -73.4818)
+					(xy 105.3592 -74.0873) (xy 105.6637 -75.0534) (xy 105.8171 -75.5541) (xy 106.2817 -76.6759) (xy 106.7679 -77.4574)
+					(xy 107.2039 -78.0451) (xy 107.4208 -78.5799) (xy 107.4266 -78.6261) (xy 107.7559 -79.1106) (xy 108.4355 -79.6966)
+					(xy 109.203 -80.4878) (xy 109.8517 -82.0137) (xy 109.9815 -82.4608) (xy 110.3572 -83.2902) (xy 110.7354 -83.6083)
+					(xy 110.9337 -83.7156) (xy 111.3056 -84.3389) (xy 111.6518 -85.3393) (xy 111.9073 -86.5102) (xy 112.0069 -87.645)
+					(xy 112.0955 -88.2446) (xy 112.355 -88.5471) (xy 112.6984 -88.7172) (xy 113.1275 -89.4825) (xy 113.4671 -90.7624)
+					(xy 113.6904 -92.4459) (xy 113.7708 -94.4221) (xy 113.789 -95.85) (xy 113.8677 -97.0056) (xy 114.0236 -97.6629)
+					(xy 114.2727 -97.9341) (xy 114.5874 -98.1112) (xy 114.8528 -98.4545) (xy 115.0539 -99.0446) (xy 115.2052 -99.9733)
+					(xy 115.3212 -101.3323) (xy 115.4165 -103.2133) (xy 115.5056 -105.7081) (xy 115.5062 -105.7276)
+					(xy 115.5909 -108.0719) (xy 115.6803 -109.8131) (xy 115.7862 -111.053) (xy 115.9203 -111.8933)
+					(xy 116.0943 -112.4358) (xy 116.32 -112.7821) (xy 116.3714 -112.8476) (xy 116.7023 -113.5902) (xy 117.0364 -114.766)
+					(xy 117.3244 -116.1437) (xy 117.5166 -117.4923) (xy 117.5634 -118.5806) (xy 117.5589 -119.0099)
+					(xy 117.5697 -119.9859) (xy 117.5958 -121.2132) (xy 117.6404 -122.1879) (xy 117.8055 -123.1216)
+					(xy 118.1899 -123.8474) (xy 118.9031 -124.6527) (xy 119.1275 -124.8819) (xy 119.785 -125.4748)
+					(xy 120.4136 -125.7916) (xy 121.2581 -125.9184) (xy 122.5631 -125.9416) (xy 124.9715 -125.9416)
+					(xy 125.192 -124.8392) (xy 125.2157 -124.6759) (xy 125.2785 -123.7831) (xy 125.3326 -122.3484)
+					(xy 125.375 -120.4929) (xy 125.4026 -118.3374) (xy 125.4125 -116.0029) (xy 125.4125 -115.7889)
+					(xy 125.4103 -113.3135) (xy 125.3977 -111.4406) (xy 125.365 -110.0743) (xy 125.3028 -109.1187)
+					(xy 125.2015 -108.4781) (xy 125.0518 -108.0565) (xy 124.844 -107.7581) (xy 124.5688 -107.4871)
+					(xy 124.4009 -107.3264) (xy 124.1543 -107.027) (xy 123.9719 -106.6312) (xy 123.8406 -106.0376)
+					(xy 123.7475 -105.1447) (xy 123.6795 -103.8509) (xy 123.6238 -102.0547) (xy 123.5673 -99.6546)
+					(xy 123.5644 -99.5285) (xy 123.4845 -96.7837) (xy 123.3803 -94.6503) (xy 123.2443 -93.0381) (xy 123.069 -91.857)
+					(xy 122.8469 -91.0166) (xy 122.762 -90.7558) (xy 122.4461 -89.5036) (xy 122.1352 -87.911) (xy 121.8859 -86.2582)
+					(xy 121.8286 -85.8205) (xy 121.5305 -84.0934) (xy 121.1624 -82.8809) (xy 120.6794 -82.0249) (xy 120.4627 -81.693)
+					(xy 119.943 -80.5209) (xy 119.6149 -79.2407) (xy 119.6141 -79.2356) (xy 119.2329 -77.4476) (xy 118.7126 -76.1256)
+					(xy 118.0998 -75.3886) (xy 117.911 -75.2187) (xy 117.6514 -74.5595) (xy 117.4637 -74.1123) (xy 116.8879 -73.3185)
+					(xy 116.0592 -72.3975) (xy 115.6525 -71.96) (xy 114.6449 -70.6006) (xy 114.0594 -69.3461) (xy 113.9742 -69.0782)
+					(xy 113.4859 -68.0309) (xy 112.9175 -67.3001) (xy 112.4939 -66.8737) (xy 112.4911 -66.6828) (xy 112.599 -66.6139)
+					(xy 112.4436 -66.2339) (xy 112.4391 -66.2282) (xy 112.1182 -65.579) (xy 111.8432 -64.6464) (xy 111.8222 -64.5549)
+					(xy 111.5154 -63.8068) (xy 111.1359 -63.4999) (xy 110.9569 -63.4087) (xy 110.5614 -62.8216) (xy 110.1938 -61.8705)
+					(xy 110.1773 -61.8154) (xy 109.626 -60.5519) (xy 108.9201 -59.939) (xy 108.4198 -59.6257) (xy 108.1264 -59.0914)
+					(xy 107.9129 -58.6339) (xy 107.2743 -58.1577) (xy 106.6842 -57.7459) (xy 106.2422 -57.0807) (xy 106.0356 -56.6755)
+					(xy 105.4046 -56.2201) (xy 104.9366 -55.9571) (xy 104.4083 -55.2761) (xy 104.3103 -55.0938) (xy 103.6488 -54.5505)
+					(xy 102.4262 -54.1864) (xy 101.8889 -54.0659) (xy 100.9204 -53.6613) (xy 100.4053 -53.0399) (xy 100.0115 -52.5137)
+					(xy 99.3145 -52.211) (xy 98.8945 -52.1154) (xy 98.6014 -51.6293) (xy 98.4066 -51.1416) (xy 97.8344 -50.3732)
+					(xy 97.0769 -49.5709) (xy 96.3295 -48.9393) (xy 95.7879 -48.6833) (xy 95.4366 -48.4372) (xy 95.0606 -47.7672)
+					(xy 94.6603 -47.1159) (xy 94.0409 -46.6755) (xy 93.5823 -46.3911) (xy 93.1635 -45.6794) (xy 92.8555 -45.1088)
+					(xy 91.9348 -44.6343) (xy 91.1836 -44.3119) (xy 90.7558 -43.8124) (xy 90.6918 -43.6749) (xy 90.0796 -43.1945)
+					(xy 89.0007 -42.7875) (xy 88.7809 -42.7257) (xy 87.6849 -42.2504) (xy 87.2142 -41.6428) (xy 86.9996 -41.2034)
+					(xy 86.3758 -40.6838) (xy 85.8815 -40.4169) (xy 85.1544 -39.8001) (xy 84.6982 -39.401) (xy 84.1188 -39.1582)
+					(xy 83.6537 -39.0246) (xy 82.8981 -38.4369) (xy 82.278 -37.6116) (xy 82.0208 -36.8037) (xy 82.0921 -36.2834)
+					(xy 82.3329 -35.9833) (xy 82.4861 -35.8025) (xy 82.7059 -35.0907) (xy 82.8899 -34.0236) (xy 82.9722 -33.4716)
+					(xy 83.397 -32.0432) (xy 84.1653 -30.8902) (xy 84.4325 -30.5711) (xy 84.9786 -29.798) (xy 85.1958 -29.2883)
+					(xy 85.3384 -28.7606) (xy 85.7625 -27.8602) (xy 86.323 -26.9064) (xy 86.8715 -26.1749) (xy 87.0819 -25.8746)
+					(xy 87.3125 -25.0882) (xy 87.3332 -24.896) (xy 87.574 -24.0652) (xy 87.9985 -23.0543) (xy 88.1408 -22.7445)
+					(xy 88.6765 -21.365) (xy 89.0987 -19.9894) (xy 89.2508 -19.4413) (xy 89.5376 -18.6538) (xy 89.7585 -18.3444)
+					(xy 89.8355 -18.306) (xy 90.1919 -17.8423) (xy 90.6397 -17.0214) (xy 90.721 -16.8422) (xy 90.8865 -16.3701)
+					(xy 91.0177 -15.7651) (xy 91.1194 -14.9454) (xy 91.1962 -13.8291) (xy 91.2531 -12.3345) (xy 91.2946 -10.3797)
+					(xy 91.3256 -7.8829) (xy 91.3508 -4.7624) (xy 91.359 -3.2082) (xy 91.3508 0.567) (xy 91.2959 3.6907)
+					(xy 91.1916 6.2014) (xy 91.035 8.1377) (xy 90.8234 9.5381) (xy 90.5541 10.4412) (xy 90.2241 10.8856)
+					(xy 90.0184 11.2071) (xy 89.7172 12.0581) (xy 89.4314 13.2082) (xy 89.3196 13.7227) (xy 88.8542 15.3311)
+					(xy 88.342 16.2734) (xy 87.7679 16.5806) (xy 87.5801 16.6443) (xy 87.524 17.0741) (xy 87.5686 17.3186)
+					(xy 87.3365 17.8005) (xy 87.1393 18.0207) (xy 86.9597 18.6944) (xy 86.8256 19.1224) (xy 86.2503 19.5805)
+					(xy 86.246 19.5819) (xy 85.5898 20.0456) (xy 85.0065 20.839) (xy 84.9706 20.9071) (xy 84.5248 21.591)
+					(xy 84.1785 21.8723) (xy 84.0887 21.9265) (xy 83.8232 22.454) (xy 83.5702 23.3613) (xy 83.5571 23.4224)
+					(xy 83.1133 24.6183) (xy 82.3884 25.2825) (xy 81.7652 25.7336) (xy 81.2533 26.4393) (xy 80.9876 26.8717)
+					(xy 80.4537 27.164) (xy 80.4147 27.1666) (xy 79.8922 27.5002) (xy 79.375 28.2223) (xy 79.3341 28.2987)
+					(xy 78.814 28.9947) (xy 78.32 29.2806) (xy 77.9497 29.4128) (xy 77.4475 29.9623) (xy 77.1284 30.3798)
+					(xy 76.4118 30.8569) (xy 75.9538 31.1652) (xy 75.5334 31.897) (xy 75.2466 32.4496) (xy 74.5902 32.9165)
+					(xy 74.1355 33.1476) (xy 73.6826 33.7663) (xy 73.4197 34.2343) (xy 72.7387 34.7626) (xy 72.2454 35.1279)
+					(xy 71.8583 35.862) (xy 71.6462 36.3588) (xy 70.9116 36.833) (xy 70.3444 37.1092) (xy 69.8618 37.71)
+					(xy 69.6361 38.1006) (xy 68.9606 38.557) (xy 68.4164 38.9072) (xy 67.9227 39.6534) (xy 67.558 40.2748)
+					(xy 67.0931 40.5695) (xy 66.6855 40.7734) (xy 66.2329 41.4013) (xy 65.7818 41.9748) (xy 64.7927 42.4453)
+					(xy 63.8273 42.8314) (xy 62.9102 43.5099) (xy 62.0693 44.1664) (xy 61.1434 44.583) (xy 60.4213 44.8394)
+					(xy 59.7118 45.2901) (xy 59.2745 45.5303) (xy 58.2944 45.8174) (xy 57.0647 46.027) (xy 55.9775 46.1744)
+					(xy 55.2223 46.3828) (xy 54.8095 46.7267) (xy 54.5459 47.3042) (xy 54.5429 47.3126) (xy 54.1445 48.0319)
+					(xy 53.6898 48.3306) (xy 53.5201 48.3597) (xy 52.7961 48.6708) (xy 51.8919 49.2126) (xy 51.5497 49.4327)
+					(xy 50.6553 49.9059) (xy 50.0322 50.0945) (xy 49.8799 50.1135) (xy 49.1238 50.3891) (xy 48.1958 50.8883)
+					(xy 47.798 51.1299) (xy 46.5893 51.7665) (xy 45.3558 52.2213) (xy 43.9275 52.5349) (xy 42.1341 52.7483)
+					(xy 39.8055 52.9024) (xy 37.9994 53.0154) (xy 36.1998 53.2052) (xy 34.942 53.4723) (xy 34.1332 53.848)
+					(xy 33.6808 54.364) (xy 33.4924 55.0516) (xy 33.4836 55.1244) (xy 33.2097 56.2352) (xy 32.723 57.4305)
+					(xy 32.1264 58.5198) (xy 31.5232 59.3129) (xy 31.0164 59.6195) (xy 30.5854 59.8449) (xy 30.1625 60.5015)
+					(xy 29.8134 61.062) (xy 29.1196 61.3834) (xy 28.6259 61.5351) (xy 28.1907 62.2654) (xy 27.9229 62.8298)
+					(xy 27.3365 63.1473) (xy 26.8107 63.3984) (xy 26.3348 64.2056) (xy 25.9283 64.9509) (xy 25.2332 65.264)
+					(xy 24.7238 65.4133) (xy 24.1823 66.1012) (xy 23.7849 66.6772) (xy 22.9835 67.1594) (xy 22.9361 67.1721)
+					(xy 22.0361 67.5759) (xy 21.1056 68.2047) (xy 20.5736 68.5489) (xy 19.3149 69.0833) (xy 17.8153 69.4912)
+					(xy 16.6634 69.7627) (xy 15.6012 70.0947) (xy 14.993 70.3863) (xy 14.8676 70.4763) (xy 14.0786 70.8816)
+					(xy 13.0528 71.2721) (xy 12.7534 71.3761) (xy 11.8328 71.7978) (xy 11.2889 72.2034) (xy 11.2751 72.2213)
+					(xy 10.5953 72.6102) (xy 9.2864 72.9299) (xy 7.4191 73.1711) (xy 5.0644 73.3246) (xy 2.293 73.381)
+					(xy 1.5769 73.3823) (xy -0.4467 73.4075) (xy -1.8954 73.5206) (xy -2.8705 73.7945) (xy -3.4731 74.302)
+					(xy -3.8042 75.1159) (xy -3.9652 76.3092) (xy -4.057 77.9545) (xy -4.0588 77.9926) (xy -4.1191 79.7586)
+					(xy -4.0949 80.9395) (xy -3.9777 81.6494) (xy -3.7591 82.0026) (xy -3.2439 82.4413) (xy -2.5244 83.1055)
+					(xy -1.8539 83.6554) (xy -1.1465 84.0646) (xy -0.8201 84.2832) (xy -0.5292 84.9379) (xy -0.3022 85.7506)
+					(xy 0.4722 86.2648) (xy 1.8344 86.4306) (xy 2.2309 86.4388) (xy 3.084 86.5821) (xy 3.3514 86.9236)
+					(xy 3.3996 87.0392) (xy 3.9461 87.36) (xy 4.9694 87.6716) (xy 6.3042 87.9383) (xy 7.7849 88.1245)
+					(xy 9.2461 88.1945) (xy 9.3697 88.1961) (xy 10.4452 88.3567) (xy 11.1125 88.7237) (xy 11.4182 89.0045)
+					(xy 12.0252 89.2529) (xy 12.4275 89.441) (xy 12.908 90.0466) (xy 13.336 90.7382) (xy 14.015 91.6072)
+					(xy 14.0277 91.6212) (xy 14.451 92.1994) (xy 14.5191 92.7912) (xy 14.2705 93.7141) (xy 14.1959 93.9283)
+					(xy 13.7703 94.8935) (xy 13.3523 95.5301) (xy 13.109 95.8458) (xy 12.8764 96.5176) (xy 12.6498 96.9634)
+					(xy 12.0012 97.4278) (xy 11.3822 97.8381) (xy 10.9312 98.4405) (xy 10.6951 98.8197) (xy 10.0163 99.2428)
+					(xy 9.5709 99.4819) (xy 9.1049 100.1628) (xy 8.8656 100.5967) (xy 8.2699 100.8945) (xy 7.9102 100.9383)
+					(xy 7.4394 101.1969) (xy 7.4153 101.2291) (xy 6.8474 101.4889) (xy 5.8017 101.6678) (xy 4.4812 101.7519)
+					(xy 3.0889 101.7274) (xy 1.8278 101.5803) (xy 1.1982 101.4314) (xy 0.1261 101.0296) (xy -0.5292 100.577)
+					(xy -0.9941 100.1109) (xy -1.8521 99.5123) (xy -2.3632 99.1359) (xy -2.6458 98.6209) (xy -2.8067 98.3762)
+					(xy -3.6179 98.0385) (xy -5.1233 97.7182) (xy -5.1537 97.713) (xy -6.4574 97.435) (xy -7.5139 97.109)
+					(xy -8.0967 96.8044) (xy -8.292 96.6352) (xy -8.8234 96.3554) (xy -9.202 96.3391) (xy -9.1951 96.6242)
+					(xy -9.1434 96.8036) (xy -9.4081 97.0703) (xy -10.1992 97.3097) (xy -11.6056 97.5562) (xy -11.977 97.6239)
+					(xy -13.0482 97.9726) (xy -13.6852 98.4277) (xy -14.0681 98.8327) (xy -14.863 99.2638) (xy -16.0424 99.5627)
+					(xy -17.6854 99.7415) (xy -19.8709 99.812) (xy -22.6779 99.7862) (xy -23.7373 99.7594) (xy -25.8833 99.6736)
+					(xy -27.4069 99.5558) (xy -28.3669 99.4003) (xy -28.8221 99.2015) (xy -28.8237 99.1999) (xy -29.0355 98.7128)
+					(xy -29.19 97.703) (xy -29.2933 96.1098) (xy -29.3514 93.8727) (xy -29.3494 92.9663) (xy -19.7687 92.9663)
+					(xy -19.4551 93.3385) (xy -19.3688 93.3652) (xy -18.6066 93.4467) (xy -17.5878 93.4215) (xy -17.4347 93.4084)
+					(xy -16.6184 93.2645) (xy -16.2531 92.9008) (xy -16.1139 92.1184) (xy -16.1107 91.2934) (xy -16.3109 90.6397)
+					(xy -16.664 90.5035) (xy -17.0895 90.9789) (xy -17.4616 91.413) (xy -18.3445 91.7223) (xy -18.4195 91.7246)
+					(xy -19.1136 91.9595) (xy -19.6091 92.44) (xy -19.7687 92.9663) (xy -29.3494 92.9663) (xy -29.3459 91.4037)
+					(xy -29.2254 89.2107) (xy -28.9762 87.6322) (xy -28.5912 86.6247) (xy -28.0631 86.1449) (xy -27.9476 86.0951)
+					(xy -27.2206 85.6967) (xy -26.3209 85.1248) (xy -26.1171 84.9906) (xy -25.5487 84.6858) (xy -24.8924 84.4884)
+					(xy -23.994 84.3753) (xy -22.6989 84.3236) (xy -20.8529 84.3101) (xy -19.217 84.2942) (xy -17.5325 84.248)
+					(xy -16.1627 84.1791) (xy -15.3028 84.0949) (xy -14.0251 83.8835) (xy -13.8382 81.5548) (xy -13.8248 81.3941)
+					(xy -13.6469 80.0318) (xy -13.3618 79.171) (xy -12.911 78.6266) (xy -12.8951 78.6135) (xy -12.2802 77.6907)
+					(xy -12.1241 76.4955) (xy -12.4139 75.2751) (xy -13.1368 74.277) (xy -13.3458 74.1035) (xy -14.0119 73.7012)
+					(xy -14.7956 73.5682) (xy -15.9838 73.6403) (xy -17.0721 73.6725) (xy -18.517 73.5903) (xy -20.0595 73.4156)
+					(xy -21.499 73.1765) (xy -22.6346 72.9013) (xy -23.2657 72.618) (xy -23.627 72.4399) (xy -24.4122 72.3195)
+					(xy -24.9237 72.2503) (xy -25.2236 72.0122) (xy -25.3537 71.8805) (xy -26.0052 71.6553) (xy -27.0208 71.4665)
+					(xy -27.5466 71.3731) (xy -28.9524 70.9562) (xy -30.1229 70.4042) (xy -30.3123 70.2915) (xy -31.6145 69.7147)
+					(xy -32.9355 69.3695) (xy -33.2065 69.323) (xy -34.4032 68.9574) (xy -35.3474 68.4472) (xy -35.4423 68.376)
+					(xy -36.4614 67.8019) (xy -37.6169 67.3682) (xy -37.8334 67.3063) (xy -38.7091 66.8941) (xy -38.982 66.3499)
+					(xy -39.1114 65.9404) (xy -39.6833 65.5156) (xy -40.2348 65.1638) (xy -40.7329 64.4162) (xy -41.1118 63.7957)
+					(xy -41.6191 63.5001) (xy -41.9662 63.3365) (xy -42.157 62.6411) (xy -42.1955 62.0873) (xy -42.4415 61.0681)
+					(xy -42.8321 60.2852) (xy -43.2697 59.9723) (xy -43.278 59.9721) (xy -43.7649 59.7086) (xy -44.4743 59.0829)
+					(xy -45.2161 58.296) (xy -45.8005 57.5488) (xy -46.0375 57.0426) (xy -46.0377 57.03) (xy -46.1581 56.4427)
+					(xy -46.4336 55.5756) (xy -46.9439 54.7052) (xy -48.1338 53.8611) (xy -49.9181 53.3794) (xy -49.9815 53.3696)
+					(xy -50.9837 53.0957) (xy -51.4062 52.8685) (xy -34.4903 52.8685) (xy -34.3217 54.6227) (xy -34.2305 55.3325)
+					(xy -33.9656 56.2116) (xy -33.4307 57.0216) (xy -32.4869 58.0195) (xy -31.5261 58.8733) (xy -30.5372 59.4482)
+					(xy -29.8612 59.407) (xy -29.509 58.7473) (xy -29.4941 58.4068) (xy -29.6229 57.829) (xy -29.9574 56.9731)
+					(xy -30.2095 56.4361) (xy -23.107 56.4361) (xy -23.0799 56.7657) (xy -22.7949 57.7856) (xy -22.317 58.7637)
+					(xy -21.793 59.3716) (xy -21.6955 59.4609) (xy -21.3634 60.1155) (xy -21.1168 61.0868) (xy -20.94 61.8804)
+					(xy -20.5236 62.5511) (xy -19.7155 63.0104) (xy -18.5397 63.3533) (xy -17.3099 63.5001) (xy -16.3371 63.6419)
+					(xy -15.7161 64.1729) (xy -15.5179 64.4114) (xy -14.594 64.8815) (xy -13.0748 65.2374) (xy -11.0321 65.4693)
+					(xy -8.5375 65.5677) (xy -5.6628 65.5229) (xy -3.815 65.424) (xy -1.7123 65.207) (xy -0.2521 64.8953)
+					(xy 0.6002 64.4806) (xy 0.8792 63.9547) (xy 0.9234 63.8384) (xy 1.4272 63.4724) (xy 2.3115 63.1423)
+					(xy 2.5353 63.074) (xy 3.659 62.5343) (xy 4.5164 61.8399) (xy 4.6629 61.6678) (xy 5.4799 60.7318)
+					(xy 6.35 59.7611) (xy 6.536 59.5557) (xy 6.6434 59.4344) (xy 12.8764 59.4344) (xy 12.8948 59.9376)
+					(xy 13.0793 60.5222) (xy 13.5387 60.6779) (xy 13.9437 60.6015) (xy 14.6403 60.1487) (xy 14.963 59.8761)
+					(xy 15.7505 59.6195) (xy 16.2569 59.4286) (xy 16.7569 58.7376) (xy 17.1152 58.1505) (xy 17.6211 57.8556)
+					(xy 17.6402 57.855) (xy 18.1609 57.5459) (xy 18.674 56.8421) (xy 19.2531 56.0735) (xy 19.9178 55.6404)
+					(xy 20.405 55.3516) (xy 20.6375 54.5373) (xy 20.6331 54.3515) (xy 20.442 53.7822) (xy 19.8437 53.664)
+					(xy 19.7645 53.6684) (xy 18.1701 53.8772) (xy 17.205 54.2965) (xy 16.8207 54.9469) (xy 16.6181 55.4532)
+					(xy 15.8839 55.9447) (xy 15.3359 56.2176) (xy 14.8841 56.8229) (xy 14.5364 57.3558) (xy 13.7925 57.8427)
+					(xy 13.4059 58.0226) (xy 12.9828 58.5201) (xy 12.8764 59.4344) (xy 6.6434 59.4344) (xy 7.4306 58.5451)
+					(xy 8.1949 57.6506) (xy 8.9814 56.7013) (xy 8.0185 55.5898) (xy 7.9411 55.5034) (xy 6.6377 54.5168)
+					(xy 4.672 53.6707) (xy 4.4434 53.5944) (xy 2.853 53.1605) (xy 1.322 52.9718) (xy -0.5245 52.978)
+					(xy -0.8215 52.9923) (xy -2.1975 53.1149) (xy -3.3 53.3) (xy -3.913 53.5137) (xy -4.0547 53.6043)
+					(xy -4.7004 53.8531) (xy -5.7012 54.0499) (xy -7.1272 54.2005) (xy -9.0483 54.311) (xy -11.5347 54.3874)
+					(xy -14.6562 54.4357) (xy -15.1598 54.4412) (xy -17.4133 54.477) (xy -19.0889 54.5311) (xy -20.2935 54.6135)
+					(xy -21.1342 54.7341) (xy -21.7183 54.9029) (xy -22.1528 55.1297) (xy -22.1678 55.1397) (xy -22.8316 55.7783)
+					(xy -23.107 56.4361) (xy -30.2095 56.4361) (xy -30.5428 55.7262) (xy -31.4247 53.9751) (xy -31.5063 53.8274)
+					(xy -32.1313 53.2273) (xy -33.1833 52.9808) (xy -34.4903 52.8685) (xy -51.4062 52.8685) (xy -51.7097 52.7053)
+					(xy -52.0961 52.4267) (xy -52.6799 52.2112) (xy -53.1271 52.0382) (xy -53.7754 51.5288) (xy -54.4649 50.9567)
+					(xy -55.6917 50.1268) (xy -57.1468 49.2676) (xy -58.6045 48.5197) (xy -58.6714 48.4875) (xy -59.4574 47.9438)
+					(xy -59.8751 47.36) (xy -59.9308 47.2284) (xy -60.5206 46.6884) (xy -61.5449 46.2189) (xy -61.9545 46.0689)
+					(xy -62.8028 45.6464) (xy -63.2225 45.2632) (xy -63.3869 45.0374) (xy -64.0001 44.8029) (xy -64.5113 44.5701)
+					(xy -65.314 43.9351) (xy -66.2207 43.039) (xy -67.0799 42.1527) (xy -67.7828 41.5174) (xy -68.1732 41.2751)
+					(xy -68.5563 41.096) (xy -69.1445 40.5695) (xy -69.6818 40.1058) (xy -70.2575 39.864) (xy -70.4504 39.8333)
+					(xy -70.732 39.5112) (xy -70.7875 39.3527) (xy -71.2494 39.1584) (xy -71.6625 39.0147) (xy -72.4996 38.422)
+					(xy -73.7265 37.3449) (xy -75.3764 35.7562) (xy -75.4222 35.7097) (xy -76.1254 34.7107) (xy -76.5425 33.6211)
+					(xy -76.9534 32.5539) (xy -77.6308 31.6671) (xy -77.6408 31.6583) (xy -78.2431 30.9567) (xy -78.4931 30.3195)
+					(xy -78.6973 29.8791) (xy -79.4632 29.5254) (xy -80.1674 29.2171) (xy -80.799 28.5111) (xy -81.1512 27.9986)
+					(xy -81.62 27.7904) (xy -81.6493 27.7944) (xy -82.0777 27.525) (xy -82.4782 26.8203) (xy -82.4995 26.7652)
+					(xy -82.8859 26.0484) (xy -83.2553 25.7529) (xy -83.6177 25.6526) (xy -84.3557 25.0554) (xy -85.0965 24.0862)
+					(xy -85.7043 22.937) (xy -86.0437 21.8003) (xy -86.1031 21.4483) (xy -86.4346 20.3981) (xy -86.9341 19.9402)
+					(xy -87.2207 19.7848) (xy -87.4758 19.4372) (xy -87.6708 18.8332) (xy -87.8133 17.8981) (xy -87.9109 16.5569)
+					(xy -87.9712 14.7348) (xy -88.0018 12.357) (xy -88.0103 9.3487) (xy -88.0028 6.4744) (xy -87.9739 4.0713)
+					(xy -87.9158 2.2268) (xy -87.8208 0.8658) (xy -87.6809 -0.0871) (xy -87.4886 -0.707) (xy -87.2359 -1.0692)
+					(xy -86.9151 -1.2488) (xy -86.5452 -1.4379) (xy -86.2522 -1.8758) (xy -86.1679 -2.638) (xy -85.8348 -3.7392)
+					(xy -85.3521 -4.6516) (xy -84.8321 -5.1187) (xy -84.603 -5.2179) (xy -84.2392 -5.7028) (xy -84.1375 -6.6738)
+					(xy -84.0446 -7.774) (xy -83.7734 -9.0143) (xy -83.3957 -10.0484) (xy -82.9841 -10.6271) (xy -82.8645 -10.7798)
+					(xy -82.5895 -11.4839) (xy -82.342 -12.5063) (xy -82.2418 -12.9432) (xy -81.8283 -14.0392) (xy -81.3224 -14.7555)
+					(xy -81.2908 -14.7823) (xy -80.8754 -15.3184) (xy -80.6584 -16.1432) (xy -80.5834 -17.4624) (xy -80.5677 -18.3588)
+					(xy -80.4893 -20.4345) (xy -80.3461 -21.935) (xy -80.1199 -22.9556) (xy -79.7924 -23.5915) (xy -79.3454 -23.9381)
+					(xy -78.7825 -24.3311) (xy -78.4931 -24.8708) (xy -78.2723 -25.3335) (xy -77.6277 -25.8094) (xy -77.2103 -26.0578)
+					(xy -76.8894 -26.5069) (xy -76.6847 -27.298) (xy -76.5249 -28.6126) (xy -76.4464 -29.3256) (xy -76.2461 -30.4363)
+					(xy -75.9501 -31.1133) (xy -75.493 -31.542) (xy -74.8698 -32.2478) (xy -74.4717 -33.272) (xy -74.4717 -33.2721)
+					(xy -74.1197 -34.3473) (xy -73.5921 -35.234) (xy -73.2805 -35.8654) (xy -72.9714 -37.0249) (xy -72.7258 -38.4514)
+					(xy -72.5743 -39.9159) (xy -72.5478 -41.1892) (xy -72.6771 -42.0423) (xy -72.681 -42.052) (xy -73.1641 -42.5108)
+					(xy -74.0049 -42.8291) (xy -75.0357 -43.2208) (xy -76.0109 -43.8805) (xy -76.9694 -44.5194) (xy -78.1007 -44.9334)
+					(xy -79.1696 -45.3157) (xy -80.1205 -45.9501) (xy -81.1921 -46.9878) (xy -81.9285 -47.7277) (xy -82.4993 -48.3464)
+					(xy -83.0792 -49.0254) (xy -83.2391 -49.2087) (xy -83.914 -49.8329) (xy -84.4196 -50.0881) (xy -84.8367 -50.1577)
+					(xy -85.9418 -50.6582) (xy -87.272 -51.5619) (xy -88.6777 -52.7743) (xy -89.4888 -53.5003) (xy -90.2785 -54.0982)
+					(xy -90.757 -54.3277) (xy -91.0371 -54.4236) (xy -91.4438 -54.9451) (xy -91.5059 -55.0766) (xy -91.9747 -55.7295)
+					(xy -92.701 -56.5471) (xy -93.509 -57.3513) (xy -94.2231 -57.9644) (xy -94.6673 -58.2083) (xy -94.9391 -58.3902)
+					(xy -95.3159 -58.9928) (xy -95.9337 -59.6562) (xy -97.2219 -60.1506) (xy -97.7787 -60.2947) (xy -98.4976 -60.6131)
+					(xy -98.9227 -61.1694) (xy -99.281 -62.1882) (xy -99.479 -62.7602) (xy -99.8644 -63.5449) (xy -100.1945 -63.8527)
+					(xy -100.5798 -64.0888) (xy -101.0099 -64.7417) (xy -101.4768 -65.3903) (xy -102.3012 -65.9677)
+					(xy -102.8957 -66.2836) (xy -103.1875 -66.6505) (xy -103.2194 -66.7895) (xy -103.5318 -67.4314)
+					(xy -104.0695 -68.296) (xy -104.2904 -68.639) (xy -104.763 -69.529) (xy -104.9514 -70.1448) (xy -104.9822 -70.3312)
+					(xy -105.3018 -71.0836) (xy -105.8562 -71.9995) (xy -106.506 -73.2631) (xy -106.9594 -75.1934)
+					(xy -107.0551 -75.9426) (xy -107.2216 -76.8024) (xy -107.3775 -77.1758) (xy -107.8229 -77.4232)
+					(xy -108.275 -77.9656) (xy -108.5674 -78.8773) (xy -108.7746 -80.3262) (xy -108.8025 -80.5769)
+					(xy -109.0432 -82.0419) (xy -109.4128 -83.0809) (xy -109.994 -83.939) (xy -110.1917 -84.1877) (xy -110.7318 -85.0491)
+					(xy -110.9486 -85.7088) (xy -111.009 -86.0634) (xy -111.4386 -86.7507) (xy -111.6541 -86.9846)
+					(xy -112.0958 -87.9656) (xy -112.4139 -89.5478) (xy -112.6137 -91.7632) (xy -112.7002 -94.6438)
+					(xy -112.7107 -95.5277) (xy -112.7534 -97.2029) (xy -112.8406 -98.4033) (xy -112.9964 -99.2916)
+					(xy -113.245 -100.0303) (xy -113.6104 -100.7818) (xy -113.7664 -101.0802) (xy -114.0214 -101.6343)
+					(xy -114.2067 -102.2195) (xy -114.3334 -102.9483) (xy -114.4126 -103.933) (xy -114.4555 -105.2861)
+					(xy -114.473 -107.1199) (xy -114.4764 -109.5469) (xy -114.4772 -111.1793) (xy -114.4859 -113.1897)
+					(xy -114.5126 -114.6548) (xy -114.5675 -115.672) (xy -114.6606 -116.3387) (xy -114.802 -116.7523)
+					(xy -115.0018 -117.0101) (xy -115.2702 -117.2097) (xy -115.4283 -117.3214) (xy -115.7225 -117.6273)
+					(xy -115.9182 -118.0964) (xy -116.0423 -118.8643) (xy -116.1215 -120.0666) (xy -116.1825 -121.8388)
+					(xy -116.301 -125.9416) (xy -112.2137 -125.9416) (xy -111.1777 -125.9398)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -55.8367 -6.6978) (xy -54.4322 -6.6733) (xy -53.5536 -6.6172) (xy -53.1058 -6.5175) (xy -52.9935 -6.3623)
+					(xy -53.1214 -6.1394) (xy -53.1883 -6.0569) (xy -53.3879 -5.5945) (xy -52.9882 -5.2399) (xy -52.8466 -5.1484)
+					(xy -52.4474 -4.6207) (xy -52.4661 -4.1097) (xy -52.9167 -3.8805) (xy -53.1786 -3.806) (xy -53.4458 -3.3161)
+					(xy -53.614 -3.0858) (xy -54.3159 -2.9025) (xy -55.4065 -2.8636) (xy -56.7136 -2.9549) (xy -58.065 -3.1624)
+					(xy -59.2888 -3.4721) (xy -60.2127 -3.8697) (xy -60.3889 -3.9733) (xy -61.2969 -4.4078) (xy -61.9713 -4.5847)
+					(xy -62.3026 -4.6446) (xy -62.7312 -5.1538) (xy -62.6959 -6.0853) (xy -62.6143 -6.2732) (xy -62.3603 -6.4634)
+					(xy -61.8415 -6.5881) (xy -60.9478 -6.6606) (xy -59.569 -6.6944) (xy -57.5948 -6.7027) (xy -55.8367 -6.6978)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -31.5731 2.1211) (xy -28.9619 2.1389) (xy -26.9591 2.1904) (xy -25.4799 2.2875) (xy -24.4392 2.4423)
+					(xy -23.7522 2.6667) (xy -23.3338 2.9726) (xy -23.0992 3.372) (xy -22.7634 3.9068) (xy -22.0688 4.4034)
+					(xy -21.6371 4.6355) (xy -21.3431 5.1151) (xy -21.3337 5.1858) (xy -20.9836 5.7318) (xy -20.2847 6.3501)
+					(xy -20.1426 6.4555) (xy -19.4912 7.0723) (xy -19.2264 7.5658) (xy -19.0326 7.9984) (xy -18.4453 8.5466)
+					(xy -18.1561 8.7688) (xy -17.8922 9.1485) (xy -17.7439 9.7635) (xy -17.6787 10.7703) (xy -17.6641 12.3256)
+					(xy -17.6651 12.7598) (xy -17.6975 14.2061) (xy -17.7932 15.1217) (xy -17.9757 15.6476) (xy -18.2689 15.9245)
+					(xy -18.5993 16.1835) (xy -18.8736 16.7162) (xy -18.8939 16.8224) (xy -19.2572 17.4066) (xy -19.932 18.1125)
+					(xy -20.1472 18.3112) (xy -20.7487 18.9596) (xy -20.9903 19.3818) (xy -21.1683 19.6414) (xy -21.784 19.95)
+					(xy -22.3319 20.1774) (xy -23.1952 20.734) (xy -23.5961 21.0205) (xy -23.8125 21.0045) (xy -23.8127 20.9986)
+					(xy -24.0743 20.9822) (xy -24.682 21.3026) (xy -25.4114 21.6883) (xy -26.0807 21.8723) (xy -26.4764 22.0157)
+					(xy -26.9875 22.5779) (xy -27.1811 22.8569) (xy -27.5446 23.0824) (xy -28.185 23.2114) (xy -29.2453 23.2697)
+					(xy -30.8681 23.2834) (xy -31.8056 23.2792) (xy -33.1381 23.2389) (xy -33.9737 23.1379) (xy -34.4494 22.9539)
+					(xy -34.702 22.665) (xy -34.8685 22.464) (xy -35.6104 21.9807) (xy -36.6403 21.572) (xy -37.1192 21.4148)
+					(xy -38.0862 20.9961) (xy -38.658 20.6029) (xy -38.9326 20.3608) (xy -39.6425 20.1067) (xy -39.7098 20.1018)
+					(xy -40.4021 19.8381) (xy -41.2277 19.2959) (xy -42.2387 18.4869) (xy -42.4226 13.0149) (xy -42.4254 12.8973)
+					(xy -35.807 12.8973) (xy -35.7552 13.149) (xy -35.4484 13.2257) (xy -35.3371 13.1288) (xy -35.2953 12.7001)
+					(xy -26.282 12.7001) (xy -26.2565 12.8868) (xy -26.0468 12.9353) (xy -26.0046 12.8836) (xy -26.0468 12.4649)
+					(xy -26.1529 12.4097) (xy -26.282 12.7001) (xy -35.2953 12.7001) (xy -35.2929 12.6757) (xy -35.3852 12.5404)
+					(xy -35.6907 12.3876) (xy -35.807 12.8973) (xy -42.4254 12.8973) (xy -42.4781 10.6842) (xy -42.4574 8.7925)
+					(xy -42.3415 7.4546) (xy -42.1183 6.5939) (xy -41.7755 6.1337) (xy -41.3008 5.9973) (xy -40.9302 5.7772)
+					(xy -40.601 5.1154) (xy -40.3377 4.5494) (xy -39.6808 4.2334) (xy -39.2754 4.1393) (xy -38.982 3.7294)
+					(xy -38.8781 3.3329) (xy -38.4276 2.6711) (xy -38.2311 2.522) (xy -37.773 2.3526) (xy -37.0232 2.2366)
+					(xy -35.8782 2.1651) (xy -34.2348 2.1294) (xy -31.9894 2.1206) (xy -31.5731 2.1211)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.6962 -88.7466) (xy 5.5018 -88.2947) (xy 6.0802 -87.8115) (xy 6.4744 -87.1807) (xy 6.5301 -86.6521)
+					(xy 6.1736 -86.4305) (xy 6.1105 -86.3967) (xy 5.9516 -85.9029) (xy 5.8563 -84.9845) (xy 5.826 -83.8532)
+					(xy 5.8622 -82.7206) (xy 5.9663 -81.7981) (xy 6.1396 -81.2976) (xy 6.1634 -81.2538) (xy 6.27 -80.6649)
+					(xy 6.3791 -79.5072) (xy 6.4832 -77.8917) (xy 6.5749 -75.9292) (xy 6.6467 -73.7305) (xy 6.6976 -72.0996)
+					(xy 6.8682 -68.8489) (xy 7.121 -66.2128) (xy 7.4652 -64.1304) (xy 7.9097 -62.5408) (xy 8.4634 -61.3833)
+					(xy 8.5976 -60.9839) (xy 8.7241 -60.0137) (xy 8.7548 -58.8017) (xy 8.7581 -58.0655) (xy 8.8735 -57.0489)
+					(xy 9.1174 -56.6263) (xy 9.5864 -56.5025) (xy 10.4301 -56.307) (xy 11.2475 -55.9916) (xy 12.1597 -55.3956)
+					(xy 12.9767 -54.9232) (xy 14.2533 -54.6721) (xy 15.1714 -54.6269) (xy 16.7008 -54.3781) (xy 17.9316 -53.9619)
+					(xy 18.6612 -53.4353) (xy 18.7005 -53.3855) (xy 19.3717 -52.8491) (xy 20.3104 -52.3807) (xy 22.082 -51.6886)
+					(xy 24.0933 -50.7882) (xy 25.4851 -49.9892) (xy 26.3001 -49.2694) (xy 26.3467 -49.2114) (xy 26.9951 -48.5873)
+					(xy 27.5423 -48.3305) (xy 27.8106 -48.2356) (xy 28.0519 -47.7131) (xy 28.0536 -47.6771) (xy 28.3312 -47.005)
+					(xy 28.9372 -46.2617) (xy 29.6154 -45.3995) (xy 30.011 -44.4978) (xy 30.2607 -43.588) (xy 30.6506 -42.5096)
+					(xy 30.7406 -42.2848) (xy 30.9161 -41.4153) (xy 30.6609 -40.6099) (xy 30.5323 -40.3723) (xy 30.0568 -39.7464)
+					(xy 29.4041 -39.3809) (xy 28.3991 -39.2089) (xy 26.8663 -39.1637) (xy 25.6515 -39.1809) (xy 24.8557 -39.2736)
+					(xy 24.4492 -39.4865) (xy 24.2675 -39.8638) (xy 24.2562 -39.9017) (xy 23.8647 -40.3486) (xy 23.2384 -40.5764)
+					(xy 22.6573 -40.5371) (xy 22.4014 -40.1828) (xy 22.4652 -39.7942) (xy 22.9541 -38.857) (xy 23.7311 -38.018)
+					(xy 24.562 -37.5611) (xy 24.9739 -37.4532) (xy 25.6307 -37.1042) (xy 26.1326 -36.4402) (xy 26.6473 -35.2777)
+					(xy 26.7091 -35.1253) (xy 27.1476 -34.2387) (xy 27.5471 -33.6902) (xy 27.656 -33.5547) (xy 27.9465 -32.8233)
+					(xy 28.1528 -31.7974) (xy 28.1639 -31.7109) (xy 28.4155 -30.6795) (xy 28.9533 -29.7679) (xy 29.9261 -28.7181)
+					(xy 30.6628 -27.9692) (xy 31.3395 -27.2033) (xy 31.657 -26.7373) (xy 31.6706 -26.7081) (xy 32.1878 -26.4512)
+					(xy 33.3976 -26.2381) (xy 35.2896 -26.0706) (xy 36.3674 -25.9949) (xy 37.6487 -25.8648) (xy 38.462 -25.6953)
+					(xy 38.9548 -25.4502) (xy 39.2743 -25.0935) (xy 39.5259 -24.7882) (xy 40.204 -24.4387) (xy 41.3293 -24.3416)
+					(xy 41.8936 -24.314) (xy 43.0918 -24.1156) (xy 44.2003 -23.7837) (xy 45.015 -23.3869) (xy 45.3319 -22.9939)
+					(xy 45.4702 -22.8517) (xy 46.1323 -22.6189) (xy 47.1568 -22.4265) (xy 48.8245 -22.0991) (xy 50.161 -21.5083)
+					(xy 51.0065 -20.6132) (xy 51.4645 -19.3394) (xy 51.6469 -18.7524) (xy 52.048 -18.5053) (xy 52.8945 -18.548)
+					(xy 53.3113 -18.6279) (xy 54.5087 -19.0201) (xy 55.7102 -19.5814) (xy 56.2748 -19.878) (xy 57.2294 -20.2966)
+					(xy 57.8532 -20.461) (xy 58.1805 -20.3543) (xy 58.6948 -19.7232) (xy 59.0982 -18.693) (xy 59.3561 -17.4577)
+					(xy 59.4342 -16.2116) (xy 59.2983 -15.1489) (xy 58.9139 -14.4638) (xy 58.6333 -14.1575) (xy 58.3847 -13.5454)
+					(xy 58.3709 -13.4174) (xy 58.1719 -13.1505) (xy 57.6394 -12.9367) (xy 56.6502 -12.7378) (xy 55.0813 -12.5151)
+					(xy 54.333 -12.3905) (xy 53.527 -12.0919) (xy 53.1911 -11.6256) (xy 52.8372 -11.0613) (xy 51.9776 -10.6668)
+					(xy 50.8598 -10.7131) (xy 50.2809 -10.7898) (xy 49.5377 -10.5023) (xy 48.9001 -9.6131) (xy 48.5109 -9.1012)
+					(xy 47.9778 -8.8194) (xy 47.5964 -8.6754) (xy 47.0958 -8.1138) (xy 46.9025 -7.819) (xy 46.2665 -7.4479)
+					(xy 45.5705 -7.7192) (xy 44.9205 -8.6087) (xy 44.6638 -9.2426) (xy 44.4732 -10.3947) (xy 44.5283 -11.9487)
+					(xy 44.6832 -13.1906) (xy 44.9665 -14.1125) (xy 45.4466 -14.6206) (xy 46.2139 -14.8716) (xy 46.6224 -15.045)
+					(xy 46.9194 -15.527) (xy 46.8933 -15.6293) (xy 46.6731 -15.7893) (xy 46.16 -15.9167) (xy 45.2714 -16.0197)
+					(xy 43.9249 -16.1068) (xy 42.0378 -16.186) (xy 39.5279 -16.2656) (xy 38.8232 -16.2875) (xy 36.6842 -16.372)
+					(xy 34.8297 -16.4725) (xy 33.3649 -16.5814) (xy 32.3952 -16.6913) (xy 32.0256 -16.7948) (xy 31.7631 -17.382)
+					(xy 31.3528 -17.8029) (xy 30.6683 -18.0597) (xy 29.5657 -18.2046) (xy 27.9013 -18.2896) (xy 26.6624 -18.3424)
+					(xy 25.5042 -18.4352) (xy 24.7822 -18.5869) (xy 24.3419 -18.8343) (xy 24.0291 -19.2144) (xy 23.7728 -19.5446)
+					(xy 23.3798 -19.8032) (xy 22.7407 -19.9562) (xy 21.7026 -20.0375) (xy 20.112 -20.0809) (xy 19.8304 -20.0864)
+					(xy 18.0793 -20.1426) (xy 16.8643 -20.2475) (xy 16.0359 -20.4326) (xy 15.4448 -20.7292) (xy 14.9415 -21.169)
+					(xy 14.6525 -21.3771) (xy 13.6146 -21.7474) (xy 12.1193 -21.9978) (xy 12.0017 -22.0103) (xy 10.6626 -22.2191)
+					(xy 9.8204 -22.533) (xy 9.2808 -23.022) (xy 8.6838 -23.8124) (xy -7.4761 -23.918) (xy -11.0773 -23.9379)
+					(xy -14.7124 -23.9459) (xy -17.7439 -23.9341) (xy -20.2269 -23.899) (xy -22.2164 -23.8371) (xy -23.7676 -23.7451)
+					(xy -24.9355 -23.6195) (xy -25.7752 -23.457) (xy -26.3417 -23.254) (xy -26.6902 -23.0072) (xy -26.8757 -22.7131)
+					(xy -27.125 -22.5003) (xy -27.9521 -22.2206) (xy -29.1719 -22.0128) (xy -29.8229 -21.924) (xy -31.2231 -21.5518)
+					(xy -32.1896 -20.9406) (xy -32.265 -20.8721) (xy -32.9803 -20.3304) (xy -33.4989 -20.1083) (xy -33.5163 -20.1076)
+					(xy -34.0563 -19.8643) (xy -34.7612 -19.3145) (xy -35.0212 -19.09) (xy -35.4032 -18.8597) (xy -35.9281 -18.6955)
+					(xy -36.7084 -18.5825) (xy -37.8566 -18.5059) (xy -39.4853 -18.4512) (xy -41.7069 -18.4034) (xy -47.8014 -18.2861)
+					(xy -47.8014 -16.6219) (xy -47.8015 -16.572) (xy -47.9593 -15.1729) (xy -48.4341 -14.3685) (xy -49.2537 -14.111)
+					(xy -49.5755 -14.0525) (xy -50.019 -13.6701) (xy -50.0559 -13.5854) (xy -50.3662 -13.4398) (xy -51.0185 -13.7583)
+					(xy -51.4644 -13.9487) (xy -52.318 -14.1264) (xy -53.6148 -14.2656) (xy -55.4422 -14.375) (xy -57.8876 -14.4638)
+					(xy -63.9169 -14.6402) (xy -65.371 -16.1546) (xy -66.2291 -17.1758) (xy -66.9113 -18.51) (xy -67.1636 -20.0522)
+					(xy -67.0471 -22.016) (xy -66.8099 -23.9149) (xy -65.3313 -24.0988) (xy -65.241 -24.1084) (xy -64.3862 -24.1564)
+					(xy -62.9508 -24.2016) (xy -61.0394 -24.242) (xy -58.7564 -24.2757) (xy -56.2064 -24.3009) (xy -53.494 -24.3155)
+					(xy -43.1352 -24.3482) (xy -42.4441 -25.2269) (xy -42.2472 -25.4656) (xy -41.9006 -25.7672) (xy -41.4202 -25.9553)
+					(xy -40.6631 -26.0566) (xy -39.4863 -26.0977) (xy -37.7468 -26.1055) (xy -37.0246 -26.1078) (xy -35.3853 -26.145)
+					(xy -34.2823 -26.2393) (xy -33.5909 -26.4059) (xy -33.1863 -26.6598) (xy -32.8558 -27.0492) (xy -32.632 -27.5108)
+					(xy -32.5962 -27.5833) (xy -32.1077 -27.8301) (xy -31.2293 -28.0443) (xy -30.3024 -28.2749) (xy -29.7926 -28.7105)
+					(xy -29.4673 -29.5746) (xy -29.4271 -29.7236) (xy -29.1999 -30.748) (xy -29.1062 -31.5085) (xy -28.8864 -32.5688)
+					(xy -28.4887 -32.9644) (xy -13.6399 -32.9644) (xy -13.6289 -32.5149) (xy -13.553 -32.43) (xy -12.9934 -32.2116)
+					(xy -11.9035 -32.0947) (xy -10.1979 -32.0682) (xy -9.24 -32.08) (xy -8.045 -32.1346) (xy -7.2944 -32.2636)
+					(xy -6.8226 -32.5035) (xy -6.4643 -32.8907) (xy -6.2669 -33.1315) (xy -5.9756 -33.36) (xy -5.5347 -33.5158)
+					(xy -4.8331 -33.6129) (xy -3.7595 -33.6651) (xy -2.2027 -33.6862) (xy -0.0516 -33.6902) (xy 1.0677 -33.6891)
+					(xy 2.9443 -33.6747) (xy 4.2924 -33.633) (xy 5.2318 -33.5505) (xy 5.8823 -33.4138) (xy 6.3637 -33.2096)
+					(xy 6.7957 -32.9244) (xy 7.0063 -32.7802) (xy 8.22 -32.2789) (xy 9.902 -32.0628) (xy 9.9256 -32.0617)
+					(xy 12.1959 -31.7939) (xy 13.8414 -31.2378) (xy 14.8508 -30.397) (xy 15.322 -29.8979) (xy 15.8826 -29.6333)
+					(xy 16.2596 -29.4892) (xy 16.7569 -28.9277) (xy 16.8508 -28.7751) (xy 17.4479 -28.3468) (xy 18.5124 -28.2221)
+					(xy 18.7741 -28.2274) (xy 19.6342 -28.3279) (xy 20.0719 -28.516) (xy 20.0774 -28.5262) (xy 20.1357 -29.0356)
+					(xy 20.124 -30.0302) (xy 20.0444 -31.305) (xy 19.8584 -32.8081) (xy 19.5423 -33.9214) (xy 19.0488 -34.7153)
+					(xy 18.9867 -34.7862) (xy 18.3481 -35.3848) (xy 17.8705 -35.6305) (xy 17.4334 -35.8811) (xy 16.9009 -36.5124)
+					(xy 16.3703 -37.0734) (xy 15.4706 -37.3944) (xy 14.889 -37.5063) (xy 14.4284 -37.8888) (xy 14.264 -38.151)
+					(xy 13.6457 -38.5841) (xy 13.5076 -38.6337) (xy 12.2072 -39.3477) (xy 11.186 -40.3048) (xy 10.8018 -40.6595)
+					(xy 10.0834 -40.9221) (xy 9.8891 -40.9488) (xy 9.0886 -41.2585) (xy 8.1474 -41.8041) (xy 7.8649 -41.9805)
+					(xy 20.4611 -41.9805) (xy 20.5335 -41.8749) (xy 20.8347 -41.6277) (xy 20.8699 -41.6369) (xy 20.9903 -41.9805)
+					(xy 20.9759 -42.0772) (xy 20.6167 -42.3333) (xy 20.4891 -42.3056) (xy 20.4611 -41.9805) (xy 7.8649 -41.9805)
+					(xy 7.6176 -42.1349) (xy 6.7898 -42.4787) (xy 5.7712 -42.6394) (xy 4.3058 -42.6749) (xy 3.1187 -42.6485)
+					(xy 2.1143 -42.5298) (xy 1.4076 -42.2633) (xy 0.7741 -41.7929) (xy 0.1712 -41.3389) (xy -0.4986 -41.0731)
+					(xy -1.4425 -40.9513) (xy -2.8757 -40.9221) (xy -4.1054 -40.89) (xy -5.5588 -40.6994) (xy -6.5602 -40.3169)
+					(xy -6.6482 -40.2641) (xy -7.3125 -39.7974) (xy -7.5847 -39.4791) (xy -7.648 -39.3611) (xy -8.0943 -38.8187)
+					(xy -8.8747 -37.9675) (xy -9.8778 -36.9308) (xy -10.3936 -36.3976) (xy -11.3055 -35.3834) (xy -11.9356 -34.5824)
+					(xy -12.1708 -34.1326) (xy -12.3952 -33.7266) (xy -13.0501 -33.3173) (xy -13.6399 -32.9644) (xy -28.4887 -32.9644)
+					(xy -28.1411 -33.3101) (xy -26.8102 -33.7088) (xy -26.0065 -33.8646) (xy -25.3939 -34.1535) (xy -25.2236 -34.6055)
+					(xy -25.0596 -35.0666) (xy -24.3417 -35.4856) (xy -23.761 -35.7692) (xy -23.4597 -36.261) (xy -23.2965 -36.7293)
+					(xy -22.6575 -37.52) (xy -21.7028 -38.3568) (xy -20.6137 -39.0863) (xy -19.5713 -39.5551) (xy -18.8391 -39.8616)
+					(xy -18.2207 -40.4842) (xy -17.9042 -41.4989) (xy -17.8153 -43.054) (xy -17.7475 -43.9958) (xy 17.1097 -43.9958)
+					(xy 17.2413 -43.7226) (xy 17.8153 -43.4886) (xy 18.2299 -43.5484) (xy 18.5208 -43.9427) (xy 18.3873 -44.2387)
+					(xy 17.8153 -44.4499) (xy 17.4041 -44.3643) (xy 17.1097 -43.9958) (xy -17.7475 -43.9958) (xy -17.7461 -44.0149)
+					(xy -17.3938 -44.8766) (xy -16.7259 -45.1555) (xy -16.2636 -45.3186) (xy -15.8435 -46.0374) (xy -15.5767 -46.6012)
+					(xy -14.9843 -46.9194) (xy -14.9465 -46.921) (xy -14.3006 -47.223) (xy -14.0874 -47.4381) (xy 13.3773 -47.4381)
+					(xy 13.7583 -47.2721) (xy 14.0273 -47.326) (xy 14.1111 -47.6249) (xy 14.0388 -47.7316) (xy 13.7583 -47.9777)
+					(xy 13.7073 -47.9611) (xy 13.4055 -47.6249) (xy 13.3773 -47.4381) (xy -14.0874 -47.4381) (xy -13.64 -47.8895)
+					(xy -12.9336 -48.8596) (xy -5.1728 -49.036) (xy -4.1596 -49.0605) (xy -1.9866 -49.1236) (xy -0.1043 -49.1926)
+					(xy 1.3838 -49.2628) (xy 2.3738 -49.3298) (xy 2.7621 -49.3888) (xy 2.814 -49.5134) (xy 2.919 -50.1853)
+					(xy 3.0011 -51.2104) (xy 3.044 -52.3481) (xy 3.0313 -53.3576) (xy 3.0277 -53.401) (xy 2.9451 -53.5985)
+					(xy 2.691 -53.7449) (xy 2.1765 -53.8478) (xy 1.3124 -53.9147) (xy 0.0097 -53.9532) (xy -1.8204 -53.9707)
+					(xy -4.2671 -53.9749) (xy -6.6824 -53.9698) (xy -8.5716 -53.9485) (xy -9.9555 -53.9029) (xy -10.9356 -53.8248)
+					(xy -11.6136 -53.7059) (xy -12.0909 -53.5381) (xy -12.4692 -53.3132) (xy -13.3936 -52.8046) (xy -14.5361 -52.4068)
+					(xy -14.5783 -52.3973) (xy -15.4063 -52.0483) (xy -15.856 -51.5655) (xy -15.9443 -51.4024) (xy -16.5432 -50.8644)
+					(xy -17.4595 -50.3563) (xy -17.8387 -50.1795) (xy -18.5794 -49.7381) (xy -18.8736 -49.4035) (xy -18.93 -49.2956)
+					(xy -19.458 -48.9762) (xy -20.3612 -48.6627) (xy -20.6718 -48.5674) (xy -21.7444 -48.0809) (xy -22.4986 -47.5129)
+					(xy -22.6132 -47.3898) (xy -23.2012 -46.9947) (xy -24.101 -46.761) (xy -25.5089 -46.6312) (xy -26.7046 -46.6059)
+					(xy -28.0849 -46.6687) (xy -29.0938 -46.817) (xy -29.6553 -46.9962) (xy -30.2608 -47.4635) (xy -30.5659 -48.3468)
+					(xy -30.6669 -49.0107) (xy -30.552 -49.7581) (xy -29.9916 -50.2871) (xy -28.8619 -50.7737) (xy -28.6328 -50.8625)
+					(xy -27.6892 -51.3549) (xy -27.0887 -51.8638) (xy -26.9604 -52.0009) (xy -26.2041 -52.4221) (xy -25.1715 -52.7076)
+					(xy -24.9062 -52.7583) (xy -23.87 -53.119) (xy -23.2201 -53.6054) (xy -23.1161 -53.7257) (xy -22.3631 -54.1941)
+					(xy -21.3404 -54.5045) (xy -21.1868 -54.5333) (xy -20.1676 -54.887) (xy -19.5792 -55.386) (xy -19.5353 -55.4563)
+					(xy -18.8711 -55.9446) (xy -17.8062 -56.2695) (xy -16.7259 -56.5978) (xy -15.8406 -57.3294) (xy -15.6698 -57.5532)
+					(xy -14.8852 -58.0797) (xy -13.5949 -58.3829) (xy -12.9432 -58.4933) (xy -12.0751 -58.8001) (xy -11.7156 -59.2674)
+					(xy -11.5898 -59.5152) (xy -11.048 -59.8744) (xy -10.0504 -60.1221) (xy -8.5358 -60.2659) (xy -6.4428 -60.3136)
+					(xy -3.7102 -60.2728) (xy -2.1821 -60.2274) (xy -0.7392 -60.1599) (xy 0.2247 -60.062) (xy 0.8374 -59.9116)
+					(xy 1.2265 -59.6863) (xy 1.5196 -59.364) (xy 2.097 -58.835) (xy 2.6458 -58.9099) (xy 2.6912 -58.9458)
+					(xy 2.8176 -59.1634) (xy 2.9225 -59.5888) (xy 3.0085 -60.2842) (xy 3.0784 -61.3119) (xy 3.1347 -62.734)
+					(xy 3.1802 -64.6128) (xy 3.2175 -67.0105) (xy 3.2494 -69.9893) (xy 3.2784 -73.6114) (xy 3.2901 -75.0857)
+					(xy 3.3342 -79.0568) (xy 3.3921 -82.3262) (xy 3.4638 -84.8965) (xy 3.5494 -86.7707) (xy 3.649 -87.9513)
+					(xy 3.7626 -88.4412) (xy 3.9326 -88.6394) (xy 4.2536 -88.8547) (xy 4.6962 -88.7466)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.7298 -120.7803) (xy 11.8054 -120.7565) (xy 12.319 -120.3317) (xy 12.5461 -119.7035) (xy 12.4502 -119.1341)
+					(xy 11.9944 -118.886) (xy 11.7476 -118.8246) (xy 11.4653 -118.3569) (xy 11.5102 -118.1127) (xy 11.8612 -117.8277)
+					(xy 12.0773 -117.7477) (xy 11.8613 -117.3507) (xy 11.8479 -117.3326) (xy 11.683 -116.7022) (xy 11.5666 -115.3831)
+					(xy 11.4993 -113.3897) (xy 11.4821 -110.7361) (xy 11.4804 -109.9053) (xy 11.3712 -106.3733) (xy 11.1001 -103.3689)
+					(xy 10.6741 -100.9333) (xy 10.0998 -99.1077) (xy 9.3841 -97.9335) (xy 8.8988 -97.3505) (xy 8.6644 -96.9256)
+					(xy 8.3785 -96.6124) (xy 8.3784 -96.6124) (xy 7.9752 -96.8607) (xy 7.6092 -97.6298) (xy 7.3424 -98.7354)
+					(xy 7.2371 -99.9931) (xy 7.2826 -100.9718) (xy 7.5491 -101.8985) (xy 8.1498 -102.6958) (xy 9.0677 -103.6538)
+					(xy 9.2334 -111.8873) (xy 9.2632 -113.2758) (xy 9.3196 -115.5148) (xy 9.379 -117.4678) (xy 9.4379 -119.0298)
+					(xy 9.4925 -120.0961) (xy 9.5392 -120.5617) (xy 9.7123 -120.806) (xy 10.4678 -120.9862) (xy 11.7298 -120.7803)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 40.0971 4.051) (xy 41.632 4.3212) (xy 42.6105 4.7834) (xy 43.0865 5.4503) (xy 43.4773 6.1695)
+					(xy 44.1462 6.9506) (xy 44.334 7.1324) (xy 44.5978 7.4669) (xy 44.7778 7.9102) (xy 44.8899 8.5815)
+					(xy 44.9502 9.6003) (xy 44.9746 11.0859) (xy 44.9792 13.1577) (xy 44.9791 13.2785) (xy 44.9707 15.3409)
+					(xy 44.9379 16.8191) (xy 44.8678 17.8284) (xy 44.7476 18.4843) (xy 44.5644 18.9023) (xy 44.3053 19.1978)
+					(xy 43.8543 19.7359) (xy 43.4272 20.6214) (xy 43.1578 21.1586) (xy 42.5435 21.6129) (xy 42.0969 21.9019)
+					(xy 41.7458 22.6252) (xy 41.5266 23.1976) (xy 40.7935 23.5779) (xy 40.7417 23.5861) (xy 39.8408 23.8752)
+					(xy 38.8532 24.3703) (xy 38.6509 24.4865) (xy 38.0808 24.7275) (xy 37.3442 24.8889) (xy 36.3064 24.9857)
+					(xy 34.8328 25.0331) (xy 32.7887 25.046) (xy 32.4311 25.046) (xy 30.5535 25.0373) (xy 29.2229 24.9995)
+					(xy 28.3025 24.9129) (xy 27.6555 24.7581) (xy 27.1452 24.5155) (xy 26.6347 24.1654) (xy 26.3611 23.972)
+					(xy 25.5317 23.4804) (xy 24.9699 23.2834) (xy 24.5824 23.0735) (xy 24.1767 22.4317) (xy 23.8152 21.8426)
+					(xy 23.1652 21.3616) (xy 22.7924 21.1775) (xy 22.445 20.7426) (xy 22.1915 19.9661) (xy 21.9953 18.7265)
+					(xy 21.82 16.9028) (xy 21.7093 14.5087) (xy 21.8552 12.1714) (xy 22.3116 10.4251) (xy 23.0826 9.2447)
+					(xy 23.3425 8.9924) (xy 24.7142 7.7086) (xy 25.7406 6.8589) (xy 26.528 6.3629) (xy 27.1828 6.14)
+					(xy 27.9665 5.8591) (xy 28.8601 5.2662) (xy 28.999 5.1409) (xy 29.7429 4.6404) (xy 30.6946 4.3398)
+					(xy 32.1028 4.1538) (xy 32.5415 4.1236) (xy 33.6805 4.0704) (xy 35.1855 4.0173) (xy 36.8493 3.9721)
+					(xy 37.9518 3.9599) (xy 40.0971 4.051)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 64.189 -5.4531) (xy 64.3282 -5.1056) (xy 64.5208 -4.3558) (xy 64.4439 -3.609) (xy 64.0863 -2.5426)
+					(xy 63.7777 -1.7615) (xy 63.4183 -1.1697) (xy 62.9431 -0.9647) (xy 62.1524 -0.986) (xy 61.8659 -1.0039)
+					(xy 61.1125 -0.9374) (xy 60.937 -0.6332) (xy 60.939 -0.5721) (xy 60.7143 -0.3792) (xy 60.0528 -0.2473)
+					(xy 58.8651 -0.1644) (xy 57.0618 -0.1187) (xy 55.639 -0.1194) (xy 54.3121 -0.1684) (xy 53.4086 -0.2595)
+					(xy 53.0695 -0.3832) (xy 53.0222 -1.3257) (xy 53.0337 -2.1575) (xy 60.8632 -2.1575) (xy 61.065 -1.6705)
+					(xy 61.4242 -1.5733) (xy 61.9838 -1.7675) (xy 62.2653 -2.1543) (xy 62.1332 -2.3373) (xy 61.5597 -2.4694)
+					(xy 61.274 -2.4437) (xy 60.8632 -2.1575) (xy 53.0337 -2.1575) (xy 53.0436 -2.8698) (xy 53.1887 -4.0737)
+					(xy 53.442 -4.7578) (xy 53.4787 -4.798) (xy 54.1898 -5.1527) (xy 55.2529 -5.2916) (xy 55.531 -5.2989)
+					(xy 56.3085 -5.4192) (xy 56.6208 -5.6404) (xy 56.8747 -5.8569) (xy 57.5636 -5.9112) (xy 58.2349 -5.9722)
+					(xy 58.6514 -6.2679) (xy 58.8343 -6.4416) (xy 59.6925 -6.6372) (xy 61.2316 -6.7027) (xy 63.6669 -6.7027)
+					(xy 64.189 -5.4531)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MP2338GTL-Z_C7210174"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MP2338GTLZ:SOT-583-8_L2.1-W1.2-P0.50-LS1.6-BR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/MP2338GTL-Z/8178491.html"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Function:Buck Voltage - Supply:4.5V~28V Voltage - Supply:4.5V~28V Output Voltage:500mV~16V Output Voltage:500mV~16V Output Current:3A Frequency - Switching:450kHz Frequency - Switching:450kHz Operating Temperature:-40°C~+125°C Operating Temperature:-40°C~+12"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MP2338GTL-Z"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MPS(芯源)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C7210174"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "高效率28V 3A 450kHz同步降压转换器"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MP2338GTL-Z_C7210174_1_0"
+			(rectangle
+				(start -6.35 -6.35)
+				(end 6.35 6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 5.08)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 3.81 0)
+				(length 2.54)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 1.27 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -3.81 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 3.81 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 1.27 180)
+				(length 2.54)
+				(name "SS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -1.27 180)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -3.81 180)
+				(length 2.54)
+				(name "BST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MP8040DN"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mp8040:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MP8040DN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2918076"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "MP8040DN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MP8040DN_1_0"
+			(rectangle
+				(start -7.62 -6.35)
+				(end 7.62 6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -6.35 5.08)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "PWM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "SP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -1.27 0)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 3.81 180)
+				(length 2.54)
+				(name "FLT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "DRV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "SHDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "BS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PCA9685PW_Q900_118"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -5.3745 29.5215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PCA9685PW_Q900_118"
+			(at -11.176 -33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 13.208 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "PCA9685"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 4.826 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "PCA9685PW_Q900_118_0_0"
+			(rectangle
+				(start -12.7 25.4)
+				(end 12.7 -30.48)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -17.78 17.78 0)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 12.7 0)
+				(length 5.08)
+				(name "~OE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 7.62 0)
+				(length 5.08)
+				(name "EXTCLK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 2.54 0)
+				(length 5.08)
+				(name "A0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 0 0)
+				(length 5.08)
+				(name "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "A2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -5.08 0)
+				(length 5.08)
+				(name "A3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -7.62 0)
+				(length 5.08)
+				(name "A4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -10.16 0)
+				(length 5.08)
+				(name "A5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.78 -15.24 0)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 17.78 180)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 12.7 180)
+				(length 5.08)
+				(name "LED0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 10.16 180)
+				(length 5.08)
+				(name "LED1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 7.62 180)
+				(length 5.08)
+				(name "LED2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 5.08 180)
+				(length 5.08)
+				(name "LED3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "LED4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name "LED5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "LED6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -5.08 180)
+				(length 5.08)
+				(name "LED7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -7.62 180)
+				(length 5.08)
+				(name "LED8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -10.16 180)
+				(length 5.08)
+				(name "LED9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -12.7 180)
+				(length 5.08)
+				(name "LED10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -15.24 180)
+				(length 5.08)
+				(name "LED11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -17.78 180)
+				(length 5.08)
+				(name "LED12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -20.32 180)
+				(length 5.08)
+				(name "LED13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -22.86 180)
+				(length 5.08)
+				(name "LED14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -25.4 180)
+				(length 5.08)
+				(name "LED15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
