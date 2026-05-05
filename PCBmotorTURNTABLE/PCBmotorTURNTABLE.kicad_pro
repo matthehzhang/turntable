@@ -798,7 +798,7 @@
       {
         "filename": "PCBmotorTURNTABLE.kicad_sch",
         "name": "PCBmotorTURNTABLE",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "8b44f71f-a5cb-444d-b651-a37e192dd55f"
       }
     ],
     "used_designators": "",
@@ -807,7 +807,7 @@
   "sheets": [
     [
       "8b44f71f-a5cb-444d-b651-a37e192dd55f",
-      "Root"
+      "PCBmotorTURNTABLE"
     ]
   ],
   "text_variables": {},
